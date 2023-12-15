@@ -1,22 +1,36 @@
-import type { Metadata } from 'next'
-import { Roboto } from 'next/font/google'
-import './globals.css'
+import type { Metadata } from 'next';
+import { Roboto } from 'next/font/google';
+import React, { ReactNode } from 'react';
+import './globals.css';
+import NavBar from './components/shared/NavBar';
+import Footer from "./components/shared/Footer"
 
-const roboto = Roboto({ subsets: ['latin'] , weight: ["400", "700"] }) 
+const roboto = Roboto({ subsets: ['latin'], weight: ['400', '700'] });
 
 export const metadata: Metadata = {
-  title: 'Avocado Store',
-  description: 'Exaple TypeScript + Next.js app',
+  title: 'Future World',
+  description: ' FUTURE WORLD SHOPIFY NEXTJS 14',
+};
+
+interface RootLayoutProps {
+  children: ReactNode;
 }
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
   return (
     <html lang="en">
-      <body className={roboto.className}>{children}</body>
+      
+      <head>
+      </head>
+      <body>
+        <header>
+       <NavBar/>
+        </header>
+        <div className={roboto.className}>{children}</div>
+      <Footer/>
+      </body>
     </html>
-  )
-}
+  );
+};
+
+export default RootLayout;
