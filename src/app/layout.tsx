@@ -2,8 +2,8 @@ import type { Metadata } from 'next';
 import { Roboto } from 'next/font/google';
 import React, { ReactNode } from 'react';
 import './globals.css';
-import NavBar from './components/shared/NavBar';
-import Footer from "./components/shared/Footer"
+import NavBar from '../components/shared/NavBar';
+import Footer from "../components/shared/Footer"
 
 const roboto = Roboto({ subsets: ['latin'], weight: ['400', '700'] });
 
