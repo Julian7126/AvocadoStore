@@ -1,1 +1,35 @@
-/*# sourceMappingURL=Description.module.css.map */
+.Description {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2.25rem;
+    max-width: 1000px;
+    margin: 6rem auto;
+    padding: 2rem 2.5rem;
+    border-radius: 1.375rem;
+  }
+  
+  .Description__img {
+    object-fit:  cover;
+    border-radius: 1rem;
+    box-shadow: 0 0 4rem rgba(245, 4, 36, 0.2);
+  }
+  
+  .Description__text h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #e4e1f6; /* Asegúrate de definir esta variable en tu código */
+    margin: 0;
+  }
+  
+  .Description__text p {
+    font-size: 1.5rem;
+    line-height: 1.75;
+    color: #fff; /* Asegúrate de definir esta variable en tu código */
+  }
+  
+  .Description__imageContainer{
+    position: relative;
+    width: 600px;
+    height: 390px;
+    
+  }
