@@ -5,6 +5,7 @@ import './globals.css';
 import NavBar from '../components/shared/NavBar';
 import Footer from "../components/shared/Footer"
 
+
 const roboto = Roboto({ subsets: ['latin'], weight: ['400', '700'] });
 
 
@@ -27,6 +28,7 @@ const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
         <header>
        <NavBar/>
         </header>
+
         <div className={roboto.className}>{children}</div>
       <Footer/>
       </body>
