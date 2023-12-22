@@ -7,6 +7,7 @@ import Footer from "../components/shared/Footer"
 
 const roboto = Roboto({ subsets: ['latin'], weight: ['400', '700'] });
 
+
 export const metadata: Metadata = {
   title: 'Future World',
   description: ' FUTURE WORLD SHOPIFY NEXTJS 14',

@@ -1,0 +1,51 @@
+
+.MainProducts {
+    /* Estilos para la sección principal */
+  }
+  
+  .MainProducts h3 {
+    /* Estilos para el encabezado h3 */
+    text-align: center;
+    font-size: 3rem;
+  }
+  
+  .MainProducts__grid {
+    /* Estilos para el contenedor de la cuadrícula */
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 400px 400px;
+    gap: 5px;
+    padding: 0.5rem;
+  }
+  
+  .MainProducts__grid article {
+    /* Estilos para cada artículo en la cuadrícula */
+    position: relative;
+    z-index: 1;
+    min-height: 400px;
+    border: 1px solid ;
+    border-color: rebeccapurple ;
+    
+  }
+  
+  .MainProducts__grid article img {
+    /* Estilos para las imágenes dentro de cada artículo */
+    height: 400px;
+    opacity: 0.4;
+    object-fit: cover;
+
+  }
+  
+  .MainProducts__grid article p {
+    /* Estilos para los párrafos dentro de cada artículo */
+    position: absolute;
+    top: 0;
+    right: 1.5rem;
+    z-index: 2;
+    font-size: 1.5rem;
+    font-weight: 700;
+    max-width: 800px;
+    text-align: right;
+
+  }

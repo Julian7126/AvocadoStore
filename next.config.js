@@ -5,6 +5,13 @@ const nextConfig = {
   sassOptions: {
     includePaths: [path.join(__dirname, 'src/sass')],
   },
-};
+  images: {
+    remotePatterns : [{
+      hostname: "cdn.shopify.com",
+      protocol: "https",
+
+    }],
+  }
+}
 
 module.exports = nextConfig;

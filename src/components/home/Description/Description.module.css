@@ -33,3 +33,17 @@
     height: 390px;
     
   }
+
+  .button-border {
+    display: flex;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    border: 3px solid #ff4980;
+    transition: border-color 0.3s ease; /* Agregué una transición suave al cambio del borde */
+  }
+  
+  /* Agregué un estilo para cuando la clase 'button-border' está presente */
+  .button.button-border {
+    border-color: #ff4980; /* Puedes agregar un color de borde diferente cuando la clase está presente */
+  }
