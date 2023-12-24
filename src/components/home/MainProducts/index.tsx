@@ -7,7 +7,8 @@ import { getProducts } from "@/services/shopify";
 
 const MainProducts = async () => {
 
-    const products = await getProducts()
+    const res = await fetch("http://localhost:3000/api")
+    const {products} = await res.json()
 
     console.log(products)
 
