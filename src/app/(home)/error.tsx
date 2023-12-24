@@ -1,5 +1,7 @@
 "use client"
 
+import { useEffect } from "react";
+
 
 interface ErrorProps {
     error: Error;
@@ -7,6 +9,18 @@ interface ErrorProps {
 }
 
 export default function Error(props: ErrorProps) {
+
+
+    // aca se puedo usar algun servicio para monitorear los errores de la app en cuanto a request y demas // o algun servicio de terceros
+        useEffect(() => {
+        console.log(props.error)
+    },[
+
+    ])
+
+
+
+
 
     return (
         <div style={{

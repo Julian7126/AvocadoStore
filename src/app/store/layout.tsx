@@ -1,6 +1,6 @@
 export default function  Layout({children} : {children: React.ReactNode}) {
     return(
-       <main>
+       <main >
         <nav>
             Navegacion de las categorias
         </nav>

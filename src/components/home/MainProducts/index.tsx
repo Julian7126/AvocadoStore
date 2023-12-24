@@ -1,23 +1,9 @@
 import Image from "next/image";
 import styles from "./MainProducts.module.css";
-
-const getProducts = async () => {
-
-    try {
+import { getProducts } from "@/services/shopify";
 
 
-        const res = await fetch(`${process.env.SHOPIFY_HOSTNAME}/admin/api/2023-10/products.json`, {
-            headers: new Headers({
-                "X-Shopify-Access-Token": process.env.SHOPIFY_API_KEY || "",
-            })
-        })
-        
-        const { products } = await res.json()
-        return products
-    } catch (err) {
-        console.log(err)
-    }
-}
+
 
 const MainProducts = async () => {
 
