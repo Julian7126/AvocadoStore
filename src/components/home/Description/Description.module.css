@@ -1,4 +1,4 @@
-.Description {
+/*# sourceMappingURL=Description.module.css.map */.Description {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 2.25rem;
@@ -17,14 +17,14 @@
   .Description__text h2 {
     font-size: 2rem;
     font-weight: 600;
-    color: #e4e1f6; /* Asegúrate de definir esta variable en tu código */
+    color: #e4e1f6; 
     margin: 0;
   }
   
   .Description__text p {
     font-size: 1.5rem;
     line-height: 1.75;
-    color: #fff; /* Asegúrate de definir esta variable en tu código */
+    color: #fff; 
   }
   
   .Description__imageContainer{
@@ -40,10 +40,9 @@
     border: none;
     cursor: pointer;
     border: 3px solid #ff4980;
-    transition: border-color 0.3s ease; /* Agregué una transición suave al cambio del borde */
+    transition: border-color 0.3s ease;
   }
-  
-  /* Agregué un estilo para cuando la clase 'button-border' está presente */
+
   .button.button-border {
-    border-color: #ff4980; /* Puedes agregar un color de borde diferente cuando la clase está presente */
+    border-color: #ff4980; 
   }
