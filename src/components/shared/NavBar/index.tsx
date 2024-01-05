@@ -6,6 +6,7 @@ import { motion } from 'framer-motion';
 const navLinks = [
   { text: 'H O M E', href: '/' },
   { text: 'S T O R E', href: '/store' },
+  { text: "S I N G -- U P", href: '/signup' },
 
 ];
 

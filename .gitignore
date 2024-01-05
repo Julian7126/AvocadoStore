@@ -31,11 +31,11 @@ yarn-error.log*
 # vercel
 .vercel
 
-# typescript
+# typescriptyt
 *.tsbuildinfo
 next-env.d.ts
 
 .env
 
 # Archivo con información confidencial
-.apisecreta.txt
+apisecreta.txt
