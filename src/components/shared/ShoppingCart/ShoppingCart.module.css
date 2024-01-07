@@ -1,0 +1,15 @@
+.ShoppingCart {
+    position: relative;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  
+  
+  
+
+  
+}
+.carticon {
+  font-size: 1.5rem;
+  color: rgb(10, 10, 10);
+}

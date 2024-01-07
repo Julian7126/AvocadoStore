@@ -10,3 +10,20 @@ body {
   color: #fff;
 
 }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #864297; /* Agregado: Añade un color de fondo al header */
+}
+
+.header p {
+  margin: 0;
+}
+
+/* Agregado: Estilos específicos para el carrito de compras si es necesario */
+.header .ShoppingCart {
+  margin-right: 10px;
+}

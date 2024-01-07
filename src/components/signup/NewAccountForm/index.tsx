@@ -12,7 +12,8 @@ const handleSubmit= async (event : any)  => {
 
   event.preventDefault();
   const formData = new FormData(event.target);
-  await  handleCreateUser(formData)
+  
+  await  handleCreateUser (formData)
 }
 
 
